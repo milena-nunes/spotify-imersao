@@ -1,0 +1,98 @@
+@media screen and (max-width: 480px) {
+  .footer{
+    flex-direction: column;
+  }
+  .footer__text {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar {
+    position: relative;
+    padding-block-end: none;
+    width: 90vw;
+    padding-bottom: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  #open {
+    display: block;
+    margin-right: 20px;
+    color: #fff;
+    background-color: transparent;
+  }
+  #close {
+    display: none;
+    margin-right: 20px;
+    color: #fff;
+    background-color: transparent;
+  }
+  .header_search, #search-input {
+    width: 270px;
+  }
+  .library {
+    display: flex;
+    justify-content: center;
+  }
+  .library, .seta, .link, .header_navigation{
+    display: none;
+  }
+  .main-container {
+    min-width: 90vw;
+    margin: 0;
+  }
+  .header_navigation, .section {
+    margin: 0 0 20px 0;
+  }
+  .playlist-container {
+    grid-template-columns: 1fr;
+  }
+  .header_search {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100px;
+  }
+  #search {
+    margin-bottom: 15px;
+  }
+  #btn {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  .footer {
+    position: relative;
+  }
+}
+/*para tablets*/
+@media screen and (min-width:481px) and (max-width: 768px) {
+  .playlist-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*para laptops*/
+@media screen and (min-width:769px) and (max-width: 1024px) {
+  .playlist-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*para telas grandes*/
+@media screen and (min-width:1025px) and (max-width: 1200px) {
+  .playlist-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/*para tela muito grandes*/
+@media screen and (min-width:1201px) {
+  .playlist-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

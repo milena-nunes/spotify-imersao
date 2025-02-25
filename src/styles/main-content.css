@@ -1,0 +1,75 @@
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 315px;
+  margin-right: 12px
+}
+.header_navigation, section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px ;
+  color: #fff;
+}
+.header_navigation, .navigation, .header_search, #btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.seta {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  background-color: #000;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+#search {
+  display: flex;
+  align-items: center;
+  background-color: #303030;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  width: 270px;
+  height: 35px;
+}
+.header_search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+.header_search #search-input {
+  background: transparent;
+  border: none;
+  padding: 0 100px 0 12;
+  outline: none;
+  color: #fff;
+  max-width: 270px;
+  height: 35px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.header_navigation .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  width: 113px;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.inscreva-se {
+  background: transparent;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+
