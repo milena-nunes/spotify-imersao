@@ -59,9 +59,6 @@ h1 {
   margin-top: 10px;
   padding: 4px 8px;
 }
-.library .search-mobile {
-  display: none;
-}
 .library .library__content {
   display: flex;
   justify-content: space-between;

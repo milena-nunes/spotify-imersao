@@ -54,7 +54,7 @@
   .playlist-container {
     grid-template-columns: 1fr;
   }
-  .header_search {
+  .navigation {
     display: flex;
     flex-direction: column;
     width: 80vw;

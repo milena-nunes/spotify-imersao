@@ -2,7 +2,7 @@
   height: 70vh;
   margin: 1.25rem;
   padding-top: 1 rem;
-  overflow: auto;
+  overflow-x: scroll;
 }
 #greeting{
   font-size: 2rem;
